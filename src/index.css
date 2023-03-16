@@ -31,7 +31,7 @@ code {
 }
 body {
   overflow-x: hidden;
-    background-color: lightgreen;
+    background-color: rgb(154, 218, 154);
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
