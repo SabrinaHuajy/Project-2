@@ -4,7 +4,7 @@ import CurrentWeather from "./components/current-weather/current-weather";
 import Forecast from "./components/forecast/forecast";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import "./App.css";
-import Map from "./components/map/map.js";
+import Map from "./components/map/map";
 
 function App() {
   const [currentWeather, setCurrentWeather] = useState(null);
