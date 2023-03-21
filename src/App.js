@@ -39,7 +39,7 @@ function App() {
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecast && <Forecast data={forecast} />}
-      {forecast && <Map lat={latlon[0]} lng={latlon[1]} />}
+     <div>{forecast && <Map lat={latlon[0]} lng={latlon[1]} />}</div> 
     </div>
   );
 }
