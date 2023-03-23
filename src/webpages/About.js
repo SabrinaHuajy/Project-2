@@ -1,5 +1,5 @@
 import React from "react";
-import "././CSS/About.css"
+import "./CSS/About.css"
 import { Container, Row, Col } from "react-bootstrap";
 import SkillSet from "./../assets/front-end-skills.png"
 
@@ -41,7 +41,7 @@ GitHub: https://github.com/SabrinaHuajy
 
 
 
-            <h5><span>Let's be friends:</span> <br /> <a href="mailto:j.hua@york.ac.uk" target="_blank" rel="noreferrer">j.hua@york.ac.uk</a></h5>
+            <h5><span>Let's be friends:</span> <br /> <a href="mailto:j.hua@york.ac.uk" rel="noreferrer">j.hua@york.ac.uk</a></h5>
           </Col>
         </Row>
       </Container>

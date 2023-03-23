@@ -16,38 +16,9 @@ import logo from "../../assets/logo.png";
 export default function Footer() {
   return (
     <div>
-        {/* Footer */}
         <section className="Footer">
         <footer>
-          {/* <Container>
-            <Row>
-              <Col sm={4}>
-                <div className="iconcont">
-                  <div className="SocialIco">
-                    <a href="https://www.linkedin.com/in/sabrinahuajy/" target="_blank" rel="noreferrer">
-                      <img src={Linkedin} alt="Linkedin" />
-                    </a>
-                  </div>
-                  <div className="SocialIco">
-                    <a href="https://github.com/SabrinaHuajy" target="_blank" rel="noreferrer">
-                    <img src={github} alt="Github" />
-                    </a>
-                  </div>
-                
-                  
-                </div>
-              </Col>
-
-              <Col sm={4} className="text-center">
-              <Link to="/"><img src={logo} className="FooterLogo" alt="Logo" /></Link>
-              </Col>
-
-              <Col sm={4} className="FooterLinks copytxt"> */}
               <p>2023 - Created by Priya, Sabina & Sabrina</p>
-              {/* </Col> */}
-              
-            {/* </Row> */}
-          {/* </Container> */}
         </footer>
       </section>
     </div>

@@ -9,8 +9,8 @@ import Navbar from './components/others/Navbar';
 // import Header from './components/others/Header';
 import Footer from './components/others/Footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from './Pages/About';
-import Contact from "./Pages/Contact";
+import About from './webpages/About';
+import Contact from "./webpages/Contact";
 // import Home from '../Pages/Home';
 // import Contact from '../Pages/Contact'
 // import Projects from '../Pages/Projects'

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row } from "react-bootstrap";
-import "././CSS/Contact.css"
+import "./CSS/Contact.css"
 import { useState } from 'react';
 import { send } from 'emailjs-com';
 
