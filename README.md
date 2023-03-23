@@ -16,10 +16,24 @@ Using React App and several APIs to create five day weather forecast for differe
 MAP pin pointing location 
 
 ## Languages & Dependencies
-Inquirer 6.5.3 , bootstrap 5.2, Jest 5.16, React 13.3, React-leaflet 4.2.1, React- router-dom 6.9
+Inquirer 6.5.3 
+Bootstrap 5.2
+Jest 5.16
+React 13.3
+React-leaflet 4.2.1
+React- router-dom 6.9
 
 ## How to Use This Application:
-API: 1) react-leaflet 2)geoDB cities 3) oepnweather, libraries: 1) react-accessible-accordion 2) react-select-async-paginate 3)jest-dom 4) tailwind
+API: 
+react-leaflet 
+geoDB cities 
+oepnweather
+libraries: 
+react-accessible-accordion 
+react-select-async-paginate 
+jest-dom 
+tailwind
+
 The site is deployed using Netlify.
 
 ## Deployed Application URL
@@ -84,4 +98,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Questions
-Please send your questions [here](mailto:priyasatish1626@gmail.com , j.hua@york.ac.uk , akinbusuyi@gmail.com?subject=[GitHub]%20Dev%20Connect) or visit [github/SabrinaHuajy, Akinbusuyi, priyadarsini-gunasekaran](https://github.com/SabrinaHuajy, Akinbusuyi, priyadarsini-gunasekaran).
+Please send your questions [here](mailto:priyasatish1626@gmail.com, j.hua@york.ac.uk, akinbusuyi@gmail.com?subject=[GitHub]%20Dev%20Connect) or visit [github/SabrinaHuajy, Akinbusuyi, priyadarsini-gunasekaran](https://github.com/SabrinaHuajy, Akinbusuyi, priyadarsini-gunasekaran).
