@@ -54,7 +54,7 @@ function App() {
         <Search onSearchChange={handleOnSearchChange} />
         {currentWeather && <CurrentWeather data={currentWeather} />}
         {forecast && <Forecast data={forecast} />}
-        <div>{forecast && <Map lat={latlon[0]} lng={latlon[1]} />}</div>
+        <div className="map">{forecast && <Map lat={latlon[0]} lng={latlon[1]} />}</div>
       </div>
     </div>
   );

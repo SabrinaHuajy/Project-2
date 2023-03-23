@@ -38,7 +38,7 @@ export const NavbarLinkContainer = styled.div`
 `;
 
 export const NavbarLink = styled(Link)`
-  color: black;
+  color: darkslategray;
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
