@@ -2,12 +2,15 @@
 MIT<br>[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-Using React App and several APIs to create seven day weather forecast for selected city and show it's location on an interactive Leaflet map.
+An interactive weather forecast app that provides real-time data, with user-friendly interface, and easy-to-use features to solve the problem of having access to accurate and up-to-date weather forecast information of a selected location. 
+
+The key components of our weather forecast app includes seven day weather forecast, location-based map services, and responsive design. The weather forecast for seven days can be retrieved by searching and selecting a city/town. The app makes use of the geoDB cities API to display the corresponding geospatial maps.
 
 ## Table of Contents
 - [Weather React Forecast](#weather-react-forecast)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
+  - [User Story](#user-story)
   - [Features](#features)
   - [Languages \& Dependencies](#languages--dependencies)
   - [How to Use This Application](#how-to-use-this-application)
@@ -17,6 +20,11 @@ Using React App and several APIs to create seven day weather forecast for select
   - [Contributors](#contributors)
   - [Testing](#testing)
   - [Questions](#questions)
+
+## User Story
+As a end user, I need an easy web app which allows me to search for a specific city or town so that I can retrieve an up-to-date seven day weather forecast easily.
+Further, I want to view a geospatial interactive map for the selected location.
+Finally, the interface should display weather forecast specific attributes namely temperature, wind, humidity & pressure.
 
 ## Features
 Using of Geolocation Map to pinpoint the weather of the city searched for.
