@@ -19,7 +19,7 @@ export default function Contact() {
     console.log(toSend.from_name, toSend.email, toSend.contact, toSend.message);
 
     send("service_unbn6ti", "template_749mqog", toSend, "4G3ogf19aCgMCX2a5")
-    
+
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
       })

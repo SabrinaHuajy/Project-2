@@ -3,10 +3,6 @@ import "./CSS/About.css"
 import { Container, Row, Col } from "react-bootstrap";
 import SkillSet from "./../assets/front-end-skills.png"
 
-// import Footer from '../others/Footer';
-
-
-
 
 const About = () => {
   return <div>
@@ -21,23 +17,23 @@ const About = () => {
           <Col sm={6} className="AboutContent">
             <h4>About Us</h4>
             <h2>Three ladies who enjoy coding</h2>
-            <p>We are a team of 3 ladies: Priya, Sabaina & Sabrina. We have done 2 projects together as a group. During these projects our team have implemented agile development methodologies to help us work collaboratively.</p> 
-            
-            <p>Priyadarsini Gunasekaran
-GitHub: https://github.com/priyadarsini-gunasekaran
-&
-LinkedIn:
+            <p>We are a team of 3 ladies: Priya, Sabaina & Sabrina. We have done 2 projects together as a group. During these projects our team have implemented agile development methodologies to help us work collaboratively.</p>
 
-</p>
-<p>
-Sabainah Akinbusuyi
-GitHub: https://github.com/akinbusuyi
- & LinkedIn:
-</p>
-<p>
-Sabrina Hua
-GitHub: https://github.com/SabrinaHuajy
-& LinkedIn: https://www.linkedin.com/in/sabrinahuajy/</p>
+            <p>Priyadarsini Gunasekaran
+              GitHub: https://github.com/priyadarsini-gunasekaran
+              &
+              LinkedIn:
+
+            </p>
+            <p>
+              Sabainah Akinbusuyi
+              GitHub: https://github.com/akinbusuyi
+              & LinkedIn:
+            </p>
+            <p>
+              Sabrina Hua
+              GitHub: https://github.com/SabrinaHuajy
+              & LinkedIn: https://www.linkedin.com/in/sabrinahuajy/</p>
 
 
 
@@ -46,14 +42,6 @@ GitHub: https://github.com/SabrinaHuajy
         </Row>
       </Container>
     </section>
-
-
-
-
-
-
-    {/* <Footer /> */}
-
   </div>
 };
 

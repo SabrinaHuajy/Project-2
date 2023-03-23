@@ -90,18 +90,18 @@ button:hover {
 }
 
 .NavBar .leftSide #hidden {
-    position:absolute;
+    position: absolute;
     left: 0px;
     top: 80px;
     height: 230px;
     width: 100%;
-    background-color:bisque;
+    background-color: bisque;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.NavBar .leftSide #hidden a{
+.NavBar .leftSide #hidden a {
     margin: 10px;
     font-size: 25px;
 }
