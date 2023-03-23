@@ -16,23 +16,23 @@ Using React App and several APIs to create five day weather forecast for differe
 MAP pin pointing location 
 
 ## Languages & Dependencies
-Inquirer 6.5.3 
-Bootstrap 5.2
-Jest 5.16
-React 13.3
-React-leaflet 4.2.1
-React- router-dom 6.9
+* Inquirer 6.5.3 
+* Bootstrap 5.2
+* Jest 5.16
+* React 13.3
+* React-leaflet 4.2.1
+* React- router-dom 6.9
 
 ## How to Use This Application:
 API: 
-react-leaflet 
-geoDB cities 
-oepnweather
+* React-leaflet 
+* GeoDB cities 
+* Openweather
 libraries: 
-react-accessible-accordion 
-react-select-async-paginate 
-jest-dom 
-tailwind
+* react-accessible-accordion 
+* react-select-async-paginate 
+* jest-dom 
+* tailwind
 
 The site is deployed using Netlify.
 
@@ -45,7 +45,7 @@ https://interactive-weather-forecast.netlify.app/
 ![alt-text] (READ-ME/images/Screenshot 2023-03-23 at 11.24.51.png)
 
 ## Contributors
-priyadarsini-gunasekaran , SabrinaHuajy. Thanks to DAN and Ryan for their supports.
+priyadarsini-gunasekaran , SabrinaHuajy. Thanks to Dan and Ryan for their supports.
 
 ## Testing
 npm test,Launches the test runner in the interactive watch mode.
