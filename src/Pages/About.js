@@ -27,7 +27,7 @@ const About = () => {
             </p>
             <p>
               Sabainah Akinbusuyi
-              GitHub: https://github.com/akinbusuyi
+              GitHub: <a href="https://github.com/akinbusuyi" rel="noreferrer"></a>
               & LinkedIn:
             </p>
             <p>
