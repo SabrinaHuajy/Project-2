@@ -1,9 +1,9 @@
 import React from 'react'
-import "../../others/Footer.css"
+import "../others/Footer.css"
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
-import Linkedin from "../Images/Social Media/linkedin.png"
-import github from "../Images/Social Media/github.png"
+import Linkedin from "../../assets/Social Media/linkedin.png"
+import github from "../../assets/Social Media/github.png"
 
 
 import logo from "../../assets/logo.png";
@@ -19,7 +19,7 @@ export default function Footer() {
         {/* Footer */}
         <section className="Footer">
         <footer>
-          <Container>
+          {/* <Container>
             <Row>
               <Col sm={4}>
                 <div className="iconcont">
@@ -42,12 +42,12 @@ export default function Footer() {
               <Link to="/"><img src={logo} className="FooterLogo" alt="Logo" /></Link>
               </Col>
 
-              <Col sm={4} className="FooterLinks copytxt">
-              <p>2023 - Sabrina Hua</p>
-              </Col>
+              <Col sm={4} className="FooterLinks copytxt"> */}
+              <p>2023 - Created by Priya, Sabina & Sabrina</p>
+              {/* </Col> */}
               
-            </Row>
-          </Container>
+            {/* </Row> */}
+          {/* </Container> */}
         </footer>
       </section>
     </div>

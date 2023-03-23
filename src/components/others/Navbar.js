@@ -12,6 +12,7 @@ import {
   NavbarLinkExtended,
 } from "../../styles/Navbarstyle.js";
 import LogoImg from "../../assets/logo.png";
+// import About from '../../Pages/About';
 
 function Navbar() {
   const [extendNavbar, setExtendNavbar] = useState(false);
@@ -22,9 +23,9 @@ function Navbar() {
         <LeftContainer>
           <NavbarLinkContainer>
             <NavbarLink to="/"> Home</NavbarLink>
-            <NavbarLink to="/products"> Products</NavbarLink>
-            <NavbarLink to="/contact"> Contact Us</NavbarLink>
-            <NavbarLink to="/about"> About Us</NavbarLink>
+            {/* <NavbarLink to="/projects"> Projects</NavbarLink> */}
+            <NavbarLink to="/contact"> Contact</NavbarLink>
+            <NavbarLink to="/About"> About Us</NavbarLink>
             <OpenLinksButton
               onClick={() => {
                 setExtendNavbar((curr) => !curr);
@@ -41,9 +42,9 @@ function Navbar() {
       {extendNavbar && (
         <NavbarExtendedContainer>
           <NavbarLinkExtended to="/"> Home</NavbarLinkExtended>
-          <NavbarLinkExtended to="/products"> Products</NavbarLinkExtended>
+          <NavbarLinkExtended to="/projects"> Projects</NavbarLinkExtended>
           <NavbarLinkExtended to="/contact"> Contact Us</NavbarLinkExtended>
-          <NavbarLinkExtended to="/about"> About Us</NavbarLinkExtended>
+          <NavbarLinkExtended to="/About" > About Us</NavbarLinkExtended>
         </NavbarExtendedContainer>
       )}
     </NavbarContainer>

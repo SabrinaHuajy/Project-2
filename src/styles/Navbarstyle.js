@@ -7,7 +7,6 @@ export const NavbarContainer = styled.nav`
   background-color: #ddedea;
   display: flex;
   flex-direction: column;
-
   @media (min-width: 700px) {
     height: 80px;
   }

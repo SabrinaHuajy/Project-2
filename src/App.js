@@ -7,8 +7,13 @@ import "./App.css";
 import Map from "./components/map/map";
 import Navbar from './components/others/Navbar';
 // import Header from './components/others/Header';
-// import Footer from './components/others/Footer';
+import Footer from './components/others/Footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from './Pages/About';
+import Contact from "./Pages/Contact";
+// import Home from '../Pages/Home';
+// import Contact from '../Pages/Contact'
+// import Projects from '../Pages/Projects'
 // import { latlon } from "leaflet";
 
 function App() {
@@ -44,10 +49,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" />
-          <Route path="/products" />
-          <Route path="/contact" />
-          <Route path="/about" />
+          {/* <Route path="/" element={<App />}/> */}
+          {/* <Route path="/Projects" element={<Projects />}/> */}
+          <Route path="/Contact" element={<Contact />}/>
+          <Route path="/About" element={<About />} />
         </Routes>
       </Router>
       <div className="container">
@@ -56,6 +61,7 @@ function App() {
         {forecast && <Forecast data={forecast} />}
         <div className="map">{forecast && <Map lat={latlon[0]} lng={latlon[1]} />}</div>
       </div>
+      <Footer />
     </div>
   );
 }
