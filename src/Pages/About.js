@@ -21,14 +21,12 @@ const About = () => {
 
             <p>Priyadarsini Gunasekaran
               GitHub: https://github.com/priyadarsini-gunasekaran
-              &
-              LinkedIn:
 
             </p>
             <p>
               Sabainah Akinbusuyi
               GitHub: <a href="https://github.com/akinbusuyi" rel="noreferrer"></a>
-              & LinkedIn:
+            
             </p>
             <p>
               Sabrina Hua
