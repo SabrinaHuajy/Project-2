@@ -6,6 +6,8 @@ import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import "./App.css";
 import Map from "./components/map/map";
 import Navbar from './components/others/Navbar';
+// import Header from './components/others/Header';
+// import Footer from './components/others/Footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { latlon } from "leaflet";
 

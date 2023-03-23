@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import "../others/Header.css"
+import "../../others/Header.css"
 
 export default function Header(props) {
   return (

@@ -1,12 +1,12 @@
 import React from 'react'
-import "../others/Footer.css"
+import "../../others/Footer.css"
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import Linkedin from "../Images/Social Media/linkedin.png"
 import github from "../Images/Social Media/github.png"
 
 
-import logo from"../Images/sh-logo.png";
+import logo from "../../assets/logo.png";
 
 
 
