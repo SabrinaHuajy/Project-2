@@ -66,12 +66,16 @@ npm test,Launches the test runner in the interactive watch mode.
 ## Questions
 Please send your questions to :
 
-priyasatish1626@gmail.com
-j.hua@york.ac.uk
-akinbusuyi@gmail.com 
+<a href="mailto:priyasatish1626@gmail.com" rel="noreferrer">priyasatish1626@gmail.com</a>
+<br>
+<a href="mailto:j.hua@york.ac.uk" rel="noreferrer">j.hua@york.ac.uk</a>
+<br>
+<a href="mailto:akinbusuyi@gmail.com" rel="noreferrer">akinbusuyi@gmail.com</a>
 
 Or visit:
 
 https://github.com/SabrinaHuajy 
+<br>
 https://github.com/Akinbusuyi
+<br>
 https://github.com/priyadarsini-gunasekaran
