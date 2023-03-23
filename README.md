@@ -1,6 +1,9 @@
 # Weather React Forecast 
 ![Github license](https://img.shields.io/badge/license--blue.svg)
 
+# Getting Started with Create React App
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ## Description
 Using React App and several APIs to create five day weather forecast for different cities.
 
@@ -13,7 +16,7 @@ Using React App and several APIs to create five day weather forecast for differe
 * [Questions](#questions)
 
 ## Features
-MAP pin pointing location 
+Using of Geolocation Map to pinpoint the weather of the city searched for.
 
 ## Languages & Dependencies
 * Inquirer 6.5.3 
