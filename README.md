@@ -1,9 +1,45 @@
-# Getting Started with Create React App
+# Weather React Forecast 
+![Github license](https://img.shields.io/badge/license--blue.svg)
 
+## Description
+Using React App and several APIs to create five day weather forecast for different cities.
+
+## Table of Contents
+* [Features](#features)
+* [Languages & Dependencies](#languagesanddependencies)
+* [How to Use This Application](#HowtoUseThisApplication)
+* [Contributors](#contributors)
+* [Testing](#testing)
+* [Questions](#questions)
+
+## Features
+MAP pin pointing location 
+
+## Languages & Dependencies
+Inquirer 6.5.3 , bootstrap 5.2, Jest 5.16, React 13.3, React-leaflet 4.2.1, React- router-dom 6.9
+
+## How to Use This Application:
+API: 1) react-leaflet 2)geoDB cities 3) oepnweather, libraries: 1) react-accessible-accordion 2) react-select-async-paginate 3)jest-dom 4) tailwind
+The site is deployed using Netlify.
+
+## Deployed Application URL
+https://interactive-weather-forecast.netlify.app/
+
+## Screenshot
+![alt-text] (READ-ME/images/Screenshot 2023-03-23 at 11.24.15.png)
+
+![alt-text] (READ-ME/images/Screenshot 2023-03-23 at 11.24.51.png)
+
+## Contributors
+priyadarsini-gunasekaran , SabrinaHuajy. Thanks to DAN and Ryan for their supports.
+
+## Testing
+npm test,Launches the test runner in the interactive watch mode.
+
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
 In the project directory, you can run:
 
 ### `npm start`
@@ -39,32 +75,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
-
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Learn More
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+Please send your questions [here](mailto:priyasatish1626@gmail.com , j.hua@york.ac.uk , akinbusuyi@gmail.com?subject=[GitHub]%20Dev%20Connect) or visit [github/SabrinaHuajy, Akinbusuyi, priyadarsini-gunasekaran](https://github.com/SabrinaHuajy, Akinbusuyi, priyadarsini-gunasekaran).
