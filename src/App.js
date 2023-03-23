@@ -5,6 +5,8 @@ import Forecast from "./components/forecast/forecast";
 import { WEATHER_API_URL, WEATHER_API_KEY } from "./api";
 import "./App.css";
 import Map from "./components/map/map";
+import Navbar from './components/others/Navbar';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import { latlon } from "leaflet";
 
 function App() {
@@ -35,11 +37,23 @@ function App() {
   };
 
   return (
-    <div className="container">
-      <Search onSearchChange={handleOnSearchChange} />
-      {currentWeather && <CurrentWeather data={currentWeather} />}
-      {forecast && <Forecast data={forecast} />}
-      <div>{forecast && <Map lat={latlon[0]} lng={latlon[1]} />}</div>
+
+    <div className="App">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" />
+          <Route path="/products" />
+          <Route path="/contact" />
+          <Route path="/about" />
+        </Routes>
+      </Router>
+      <div className="container">
+        <Search onSearchChange={handleOnSearchChange} />
+        {currentWeather && <CurrentWeather data={currentWeather} />}
+        {forecast && <Forecast data={forecast} />}
+        <div>{forecast && <Map lat={latlon[0]} lng={latlon[1]} />}</div>
+      </div>
     </div>
   );
 }
